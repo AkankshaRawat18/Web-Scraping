@@ -1,14 +1,10 @@
-# Run with
-#
-# scrapy runspider a3-akankshr-itunes-topapps-1.py –t csv –o -> a3-akankshr-itunes-topapps-1.csv
 
-# Akanksha Rawat
 
 from scrapy.spiders import Spider
 
 class S1(Spider):
     name = 's1'
-    # allowed_domains = ['craigslist.org']
+    
     start_urls = [ "http://www.apple.com/itunes/charts/free-apps/" ]
     custom_settings = { 'DOWNLOAD_DELAY': 0.5 }
     

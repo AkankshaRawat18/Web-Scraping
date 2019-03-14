@@ -1,8 +1,3 @@
-# Run with
-#
-#   scrapy runspider a3-akankshr-itunes-topapps-2.py –t csv –o -> a3-akankshr-itunes-topapps-2.csv
-
-# Akanksha Rawat
 
 from scrapy.spiders import Spider
 from scrapy import Request
